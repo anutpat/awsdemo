@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     AWS Lambda function that returns a formatted Hello World message
     """
     message = {
-        'message': 'Hello, World!!!1',
+        'message': 'Hello, World!!!2',
         'event': event,  # Includes the incoming event data
         'function_name': context.function_name,  # Name of the Lambda function
         'function_version': context.function_version,  # Version of the function
